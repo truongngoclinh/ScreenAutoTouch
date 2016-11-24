@@ -13,9 +13,10 @@ Also be auto touch for Summoner War game. There are some versions:
 **2. Using ant build to build jar file**
 
 **3. Put on your device:**
-
+```ruby
 adb -s emulator-5554 push E:\SMW\jar\BLexpfarmget.jar /data/local/tmp/
-
+```
 **4. Running function**
-
+```ruby
 adb -s emulator-5554 shell uiautomator runtest BLexpfarmget.jar -c com.samsung.android.tests.snote.SNoteZoomTests 
+```
